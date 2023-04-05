@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduation Event</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <script src="../js/comments.js" defer></script>
+  </head>
+  <body >
+    <nav class="bg-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="flex-shrink-0">
+              <a href="#" class="text-white text-xl font-bold">Graduation Event</a>
+            </div>
+            <div class="hidden md:block">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <a href="/Gallery" class="text-white hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Gallery</a>
+                <a href="/VIP" class="text-white hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">VIP</a>
+                <a href="/partyroom" class="text-white hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Party Room</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="min-h-screen bg-gray-100 flex justify-center items-center bg-cover bg-center" style="background-image: url(/Images/in-person-graduation-celebration.jpg);" >
+      <div class="bg-white p-8 rounded shadow-lg">
+        <h1 class="text-3xl font-bold mb-4">Graduation Event</h1>
+        <p class="mb-8">Join us to celebrate the graduation of the Class of 2023!</p>
+        <p class="mb-8">Date: May 28, 2023</p>
+        <p class="mb-8">Time: 2:00pm - 5:00pm</p>
+        <p class="mb-8">Location: Main Auditorium</p>
+        <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Register Now</button>
+      </div>
+    </div>
+
+<div class="bg-white p-8 rounded shadow-lg mt-8">
+  <h2 class="text-2xl font-bold mb-4">Comments</h2>
+  <form>
+    <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="name">
+        Name
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="John Doe">
+    </div>
+    <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="comment">
+        Comment
+      </label>
+      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="comment" placeholder="Enter your comment here"></textarea>
+    </div>
+    <div class="flex items-center justify-between">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" id="submit-btn">
+        Post Comment
+      </button>
+    </div>
+  </form>
+  <div class="mt-8">
+    <h3 class="text-lg font-bold mb-4">Previous Comments</h3>
+    <ul id="comments-list">
+      <li class="mb-2">
+        <span class="font-bold">Jane Doe:</span> This is a great event!
+      </li>
+      <li class="mb-2">
+        <span class="font-bold">Bob Smith:</span> Can't wait to attend!
+      </li>
+    </ul>
+  </div>
+</div>
+
+    
+  </body>
+</html>
